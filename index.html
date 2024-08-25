@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(https://static.wixstatic.com/media/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg/v1/fill/w_1263,h_840,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+            background-size: cover;
+            width: auto;
+            height: 98vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .bar {
+            display: flex;
+            justify-content: center;
+            padding: 30px 110px;
+            gap: 50px;
+            word-spacing: 30px;
+            font-size: 20px;
+        }
+
+        .logo {
+            letter-spacing: 10px;
+            padding: 24px;
+        }
+
+        .unorder {
+            list-style-type: none;
+
+        }
+
+        .list {
+            display: inline;
+        }
+
+        button {
+            border: 1px solid black;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            background-color: black;
+            height: 35px;
+            width: 100px;
+        }
+
+        .text {
+            text-align: center;
+            line-height: 40px;
+            margin-top: 60px;
+        }
+
+        .heading {
+            font-size: 80px;
+            line-height: 80px;
+
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+
+
+
+        @media only screen and (max-width:1024px) {
+
+            .list {
+                display: none;
+            }
+
+            .button {
+                height: 40px;
+                width: 100px;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+
+
+            .heading {
+                font-size: 50px;
+                line-height: 80px;
+            }
+
+            p {
+                font-size: 15px;
+                word-wrap: break-word;
+            }
+        }
+
+        @media only screen and (max-width:560px) {
+            .heading {
+                font-size: 40px;
+            }
+
+            .text {
+                width: 602px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <navbar>
+        <div class="main">
+
+            <div class="logo">
+                <h1>
+                    AUTONO
+                </h1>
+            </div>
+
+            <div class="bar">
+
+                <ul class="unorder">
+                    <li class="list" a href="#"></a>Technology</li>
+                    <li class="list" a href="#"></a>About</li>
+                    <li class="list" a href="#"></a>Career</li>
+                </ul>
+                <button class="button">Subscribe</button>
+            </div>
+        </div>
+    </navbar>
+
+
+
+    <div class="text">
+        <h1 class="heading">
+            THE FUTURE OF
+        </h1>
+
+        <h1 class="heading">
+            MOBILITY IS HERE
+        </h1>
+
+
+
+        <p>
+            Discover the safest self-driving experience with Autono.
+        </p>
+    </div>
+
+</body>
+
+</html>
